@@ -1,6 +1,6 @@
 # The Snorlax Application
 
-The Snorlax Application is a simple API app for PHPStorm.
+The Snorlax Application is a simple API app to validate E2E data from [DocKing](https://github.com/shipsaas/docking).
 
 ## Tech Stack
 
