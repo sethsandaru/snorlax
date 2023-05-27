@@ -9,9 +9,9 @@ export const webhookRequestRepo = {
     await runDbQuery(
       `
       INSERT INTO webhook_requests (file_url)
-      VALUES (?, ?)
+      VALUES (?)
     `,
-      [insertData.file_url]
+      insertData.file_url
     );
 
     return true;
