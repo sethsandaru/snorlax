@@ -19,7 +19,6 @@ routes.get('/get-latest-webhook-request',  async (req, res) => {
 });
 
 routes.post('/docking-webhook', async (req, res) => {
-  console.log(req.body)
   const { file } = req.body;
   const fileUrl = String(file.url || '');
 

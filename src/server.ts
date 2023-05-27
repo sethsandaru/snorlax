@@ -9,5 +9,5 @@ export default function initServer(): void {
   app.use('/', routes);
 
   app.listen(port);
-  console.log(`App started on http://localhost:${port} port.`);
+  console.log(`Express Server started on http://localhost:${port} port.`);
 }
